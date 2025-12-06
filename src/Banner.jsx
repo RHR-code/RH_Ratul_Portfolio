@@ -33,7 +33,12 @@ const Banner = () => {
             Got a project?
           </button>
           <button className="border px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
-            My resume
+            <a
+              href="/MD _ROBIUL_HASAN_RATUL_Front-end_Developer_Resume.pdf"
+              download
+            >
+              My resume
+            </a>
           </button>
         </div>
       </div>
