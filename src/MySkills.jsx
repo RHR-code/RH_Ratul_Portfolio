@@ -91,7 +91,10 @@ const MySkills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-8 sm:p-12">
+    <div
+      id="skills"
+      className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-8 sm:p-12"
+    >
       <motion.h1
         className="text-5xl font-bold my-10 text-center text-red-500 dark:text-red-500"
         initial={{ opacity: 0, y: -20 }}

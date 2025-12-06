@@ -3,14 +3,14 @@ import { FaLaptopCode, FaPalette, FaRocket, FaRunning } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <h1 className="text-5xl font-bold my-24 text-red-500 text-center">
         About Me
       </h1>
-      <div className="max-w-7xl mx-auto  space-y-16">
+      <div className="max-w-7xl mx-auto px-5 md:px-0  space-y-16">
         {/* 1. Introduction & Programming Journey */}
         <section className="bg-white  dark:bg-gray-800 p-8 rounded-xl shadow-2xl border-t-4 border-red-500">
-          <h2 className="flex items-center text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+          <h2 className="flex items-center text-2xl md:text-3xl font-bold mb-6 text-gray-900 dark:text-white">
             <FaLaptopCode className="mr-3 text-red-500" /> My Programming
             Journey
           </h2>
@@ -29,7 +29,7 @@ const About = () => {
 
         {/* 2. Type of Work I Enjoy */}
         <section className="p-8">
-          <h2 className="flex items-center text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+          <h2 className="flex items-center text-2xl md:text-3xl font-bold mb-6 text-gray-900 dark:text-white">
             <FaRocket className="mr-3 text-red-500" /> Where I Thrive
           </h2>
 
@@ -64,7 +64,7 @@ const About = () => {
 
         {/* 3. Hobbies and Interests */}
         <section className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-red-500">
-          <h2 className="flex items-center text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+          <h2 className="flex items-center text-2xl md:text-3xl font-bold mb-6 text-gray-900 dark:text-white">
             <FaPalette className="mr-3 text-red-500" /> Beyond the Code
           </h2>
 

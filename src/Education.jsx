@@ -66,7 +66,10 @@ const Education = () => {
   ];
 
   return (
-    <div className="py-20 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <div
+      id="education"
+      className="py-20 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 px-5 md:px-0"
+    >
       {/* --- Section Header --- */}
       <motion.h1
         className="text-5xl font-extrabold mb-16 text-center text-red-600 dark:text-red-500"
@@ -92,7 +95,7 @@ const Education = () => {
                          bg-white dark:bg-gray-800 shadow-xl p-6 rounded-lg 
                          border-t-4 border-red-500 w-full md:w-auto`}
             >
-              <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">
+              <h3 className="md:text-xl font-bold mb-1 text-gray-900 dark:text-white">
                 {item.title}
               </h3>
               <p className={`text-sm font-semibold mb-2 ${item.color}`}>

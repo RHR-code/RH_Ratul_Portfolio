@@ -6,10 +6,12 @@ import MySkills from "./MySkills";
 import SkillsCarousel from "./SkillsCarousel";
 import Education from "./Education";
 import ProjectsList from "./ProjectList";
+import Contact from "./Contact";
+import Footer from "./footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       <Navbar />
       <Banner />
       <About />
@@ -17,6 +19,8 @@ const Home = () => {
       <MySkills />
       <Education />
       <ProjectsList />
+      <Contact />
+      <Footer />
     </div>
   );
 };

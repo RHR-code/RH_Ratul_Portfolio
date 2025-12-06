@@ -30,9 +30,12 @@ const ProjectsList = () => {
 
   // Renders the main project list view
   return (
-    <div className="py-20 bg-gray-50 dark:bg-gray-900 min-h-screen">
+    <div
+      id="projects"
+      className="py-20 bg-gray-50 dark:bg-gray-900 min-h-screen"
+    >
       <motion.h2
-        className="text-5xl font-extrabold mb-16 text-center text-red-600 dark:text-red-400"
+        className="text-5xl font-extrabold mb-16 text-center text-red-600 dark:text-red-500"
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}

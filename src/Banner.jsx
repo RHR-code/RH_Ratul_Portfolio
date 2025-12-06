@@ -5,14 +5,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <section className="px-10 mt-16 grid grid-cols-1 md:grid-cols-2 items-center">
+    <section
+      id="home"
+      className="px-10 mt-16 grid grid-cols-1 md:grid-cols-2 items-center"
+    >
       {/* Left Side */}
       <div>
         <p className="text-2xl">
           Hello<span className="text-red-500"> ,</span>
         </p>
-        <h2 className="text-4xl mt-2">I'm Md Robiul Hasan Ratul</h2>
-        <h3 className="text-7xl md:text-5xl mt-4 font-bold">
+        <h2 className="text-2xl md:text-4xl mt-2">I'm Md Robiul Hasan Ratul</h2>
+        <h3 className="text-2xl md:text-5xl mt-4 font-bold">
           <Typewriter
             words={[
               "MERN Stack Developer",
@@ -29,10 +32,10 @@ const Banner = () => {
         </h3>
         {/* Buttons */}
         <div className="mt-8 flex gap-4">
-          <button className="bg-red-500 px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-600">
+          <button className="bg-red-500 px-4 md:px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-600">
             Got a project?
           </button>
-          <button className="border px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
+          <button className="border px-4 md:px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
             <a
               href="/MD _ROBIUL_HASAN_RATUL_Front-end_Developer_Resume.pdf"
               download
@@ -74,7 +77,7 @@ const Banner = () => {
       <div className="flex gap-5 mt-6">
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/YOUR_USERNAME"
+          href="https://www.linkedin.com/in/rhratul/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 
@@ -86,7 +89,7 @@ const Banner = () => {
 
         {/* GitHub */}
         <a
-          href="https://github.com/YOUR_USERNAME"
+          href="https://github.com/RHR-code"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 

@@ -135,7 +135,7 @@ const SKILLS_AND_TOOLS = [
 const carouselItems = [...SKILLS_AND_TOOLS, ...SKILLS_AND_TOOLS];
 
 const scrollAnimation = {
-  x: ["0%", "-50%"],
+  x: ["0%", "-100%"],
   transition: {
     x: {
       duration: 10,
