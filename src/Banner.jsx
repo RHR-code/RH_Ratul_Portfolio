@@ -1,17 +1,32 @@
 import React from "react";
 import Avatar from "./assets/my-profile-pic (1).png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
+
 const Banner = () => {
   return (
     <section className="px-10 mt-16 grid grid-cols-1 md:grid-cols-2 items-center">
       {/* Left Side */}
       <div>
         <p className="text-2xl">
-          Hello<span className="text-red-500">.</span>
+          Hello<span className="text-red-500"> ,</span>
         </p>
         <h2 className="text-4xl mt-2">I'm Md Robiul Hasan Ratul</h2>
-        <h3 className="text-5xl mt-4 font-bold">MERN Stack Developer</h3>
-
+        <h3 className="text-7xl md:text-5xl mt-4 font-bold">
+          <Typewriter
+            words={[
+              "MERN Stack Developer",
+              "Problem Solver",
+              "Life Long Learner",
+            ]}
+            loop={0}
+            cursor
+            cursorStyle="_"
+            typeSpeed={100}
+            deleteSpeed={40}
+            delaySpeed={1500}
+          />
+        </h3>
         {/* Buttons */}
         <div className="mt-8 flex gap-4">
           <button className="bg-red-500 px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-600">
