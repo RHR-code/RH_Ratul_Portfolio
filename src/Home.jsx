@@ -4,6 +4,8 @@ import Banner from "./Banner";
 import About from "./About";
 import MySkills from "./MySkills";
 import SkillsCarousel from "./SkillsCarousel";
+import Education from "./Education";
+import ProjectsList from "./ProjectList";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <About />
       <SkillsCarousel />
       <MySkills />
+      <Education />
+      <ProjectsList />
     </div>
   );
 };
