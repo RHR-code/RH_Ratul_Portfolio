@@ -148,7 +148,7 @@ const scrollAnimation = {
 
 const SkillsCarousel = () => {
   return (
-    <div className="py-16 bg-white px-10 my-24 mx-auto dark:bg-gray-900">
+    <div className="py-16 bg-white px-5 my-24 mx-auto dark:bg-gray-900">
       <h2 className="text-4xl font-bold mb-8 text-center text-red-500 dark:text-red-500">
         🚀 My Tech Stack & Toolkit
       </h2>

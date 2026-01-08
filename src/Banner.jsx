@@ -32,12 +32,15 @@ const Banner = () => {
         </h3>
         {/* Buttons */}
         <div className="mt-8 flex gap-4">
-          <button className="bg-red-500 px-4 md:px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-600">
+          <a
+            href="#contact"
+            className="bg-red-500 px-4 md:px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-600"
+          >
             Got a project?
-          </button>
+          </a>
           <button className="border px-4 md:px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
             <a
-              href="/MD _ROBIUL_HASAN_RATUL_Front-end_Developer_Resume.pdf"
+              href="/MD ROBIUL HASAN RATUL MERN Stack Developer Resume (2).pdf"
               download
             >
               My resume
@@ -47,7 +50,7 @@ const Banner = () => {
       </div>
 
       {/* Right Side - Image */}
-      <div className="flex justify-center mt-12 md:mt-0 ">
+      <div className="flex justify-center mt-12  md:mt-0 ">
         <div className="relative">
           {/* Glowing Background */}
           <div className="absolute -inset-6 w-90 h-90 bg-red-500/30 blur-3xl rounded-full"></div>

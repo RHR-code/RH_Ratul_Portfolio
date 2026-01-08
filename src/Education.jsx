@@ -106,7 +106,7 @@ const Education = () => {
               </p>
             </div>
 
-            <div className="timeline-middle ">
+            <div className="timeline-middle md:mx-5">
               <item.icon
                 className={`h-8 w-8 p-1 rounded-full ${item.color} bg-${
                   item.color.split("-")[1]

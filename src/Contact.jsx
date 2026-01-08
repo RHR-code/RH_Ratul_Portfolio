@@ -8,7 +8,7 @@ const CONTACT_DETAILS = [
     icon: FaEnvelope,
     title: "Email Address",
     value: "rhratul003@gmail.com", // Replace with your actual email
-    link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new",
+    link: "mailto:rhratul003@gmail.com?subject=Contact%20Me&body=Hi,%20I%20want%20to%20talk%20about...",
     color: "text-red-500",
   },
   {

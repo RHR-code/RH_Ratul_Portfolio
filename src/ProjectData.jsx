@@ -26,7 +26,7 @@ export const PROJECT_DATA = [
     stack: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     description:
       "A high-performance, responsive learning platform Where users will find all kind of learning resources . We have a lot of experienced teacher not only that we have support moderators who are 24 hours active to support your if you have any course related problems.",
-    liveLink: "https://saas-landing-page.netlify.app",
+    liveLink: "https://a9-category-sunflower-64414.web.app/",
     githubClient: "https://github.com/RHR-code/Skill-Swap.git",
     challenges: [
       "Achieving perfect responsiveness across all devices using complex Tailwind utility classes.",
